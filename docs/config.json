@@ -1,0 +1,15 @@
+{
+	"title": "Notes on learning AngularJS",
+	"tagline": "The Easiest Way To Document Your Project",
+	"docs_path": "docs",
+	"image": "img/app.png",
+	"theme": "blue",
+	"template":"default",
+	"toggle_code": true,
+	"date_modified": true,
+	"repo": "",
+	"twitter": [],
+	"google_analytics": "UA-12653604-10",
+	"links": {
+	}
+}
