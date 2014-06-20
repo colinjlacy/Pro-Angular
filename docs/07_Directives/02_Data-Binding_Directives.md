@@ -10,4 +10,10 @@ Data binding is the central aspect of Angular's awesomeness.  Most applications 
 
 The most basic calls for one-way bindings are done with `ng-bind` (as demonstrated above), or the `{{...}}` syntax applied within the content of an HTML element.
 
-`ng-bind` will apply the data bound to the HTML element within the content of the element.  So, on the example above, there will be nothing else
+`ng-bind` will apply the data bound to the HTML element within the content of the element, using the `innerHTML` property.  So, on the example above, there will be nothing else in the `<p>` element, even if the template is written with text between the opening and closing tag.  Angular will replace it with the data bound by `ng-bind`.
+
+Conversely, using the `{{...}}` syntax will apply the data inline with any other HTML, whether or not it's the only HTML in the element.
+
+	<p>Hello {{data.world}}!</p>
+
+To add to `ng-bind`
