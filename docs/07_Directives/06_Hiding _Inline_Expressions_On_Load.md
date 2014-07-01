@@ -1,0 +1,1 @@
+There are times when you're waiting for your complex app to load, when you'll see the inline binding expressions `{{...}}`.  This is the result of the HTML in the app loading before the

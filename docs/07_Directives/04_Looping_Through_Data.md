@@ -97,4 +97,4 @@ This is an example you might find when creating a blog feed:
 		{{item.snippet}}
 	</p>
 
-Notice that the `ng-repeat-end` directive goes on the last element in the loop.  This creates a sweet block of code that will be repeated for each `item in items` without having to wrap the repeated block in an element, just for the loop.
+Notice that the `ng-repeat-end` directive goes on the last element in the loop.  This creates a sweet block of code that will be repeated for each `item in items` without having to wrap the repeated block in an element, just for the loop.  A nice way to think of this is to view it as a loop template - or, a more flexible version than the standard `ng-repeat` provides.
