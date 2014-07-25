@@ -1,1 +1,0 @@
-One of the benefits of Angular is its ability to hide, show, remove, and add elements to the DOM conditionally and dynamically, based on expressions given to built-in directives.
